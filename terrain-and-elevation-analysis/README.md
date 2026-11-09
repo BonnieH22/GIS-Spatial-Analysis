@@ -17,39 +17,39 @@ This project examines elevation, slope, aspect, shaded relief, and 3D terrain re
 
 ### Elevation slope
 
-![Clarke County elevation slope map](images/clarke-county-slope.jpg)
+![Clarke County elevation slope map](terrain-and-elevation-analysis/Clarke-County-Maps/SlopeLayout.jpg)
 
 The slope chosen at a given cell is the **maximum rate of elevation change**, or the steepest slope. Percent rise represents the vertical elevation change divided by the horizontal distance, multiplied by 100.
 
 ### Aspect
 
-![Clarke County aspect map](images/clarke-county-aspect.jpg)
+![Clarke County aspect map](terrain-and-elevation-analysis/Clarke-County-Maps/aspectlayout.jpg)
 
 Aspect is the cardinal or intercardinal direction that the slope faces. It is measured in degrees, with 0 and 360 degrees representing north, using the direction of the steepest downhill slope.
 
 ## Shaded Relief — Lake Lanier
 
-![Lake Lanier shaded relief](images/lake-lanier-hillshade.jpg)
+![Lake Lanier shaded relief](terrain-and-elevation-analysis/Lake-Lanier-Maps/relieflayout.jpg)
 
 Different versions of shaded relief look different because changing the illumination parameters changes which portions of the surface are brighter or darker. **Azimuth** controls the direction of the illumination, while **altitude** affects the intensity of the shadows. With lower illumination altitude, shadows appear to extend farther.
 
 ### Elevation and shaded relief
 
-![Lake Lanier elevation and shaded relief](images/lake-lanier-elevation-hillshade.jpg)
+![Lake Lanier elevation and shaded relief](terrain-and-elevation-analysis/Lake-Lanier-Maps/elevationandshadedrelieflayout.jpg)
 
 ## 3D Terrain and Land Cover
 
 ### 3D land cover
 
-![Lake Lanier 3D land cover](images/lake-lanier-3d-landcover.jpg)
+![Lake Lanier 3D land cover](terrain-and-elevation-analysis/Lake-Lanier-Maps/lakelanierlandcover.jpg)
 
 ### 3D shaded relief
 
-![Lake Lanier 3D shaded relief](images/lake-lanier-3d-hillshade.jpg)
+![Lake Lanier 3D shaded relief](terrain-and-elevation-analysis/Lake-Lanier-Maps/3drelief.jpg)
 
 ## TIN Simplification and Z-Tolerance
 
-![TIN comparison screenshot](images/tin-z-tolerance.jpg)
+![TIN comparison screenshot](terrain-and-elevation-analysis/z-tolerance-comparison/tin-z-tolerance.jpg)
 
 In the lab, I compared terrain surfaces with different Z-tolerance values. A higher Z-tolerance produced shapes that appeared sharper and less smooth, with less detail. I also compared their file sizes:
 
