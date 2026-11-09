@@ -20,7 +20,7 @@ I used centroids located **inside** the census blocks. When *Inside* is not chec
 
 ## Final Map and Charts
 
-![Nighttime Population and Service Areas for Hospitals in Atlanta, GA](images/hospital-service-map.png)
+[![Nighttime Population and Service Areas for Hospitals in Atlanta, GA](images/hospital-service-map.png)](https://github.com/BonnieH22/GIS-Spatial-Analysis/blob/ea47f0b55b63407e10b77c1b443abee7fc0b607c/Hospital%20Service%20Areas/Nighttime%20Population%20and%20Service%20Areas%20for%20Hospitals%20in%20Atlanta%2C%20GA/Layout.png)
 
 The map displays nighttime population and hospital service areas in Atlanta, with charts comparing population density, acreage coverage, and the hospitals with the largest percentages of population coverage.
 
