@@ -18,13 +18,9 @@ I selected water areas from the shoreline raster and calculated distance from wa
 
 I then grouped contiguous cells into stands, calculated stand area, converted square meters into hectares, and kept the stands meeting the 1,000-hectare minimum. Finally, I added roads to the map as a visual reference and to show how accessible the stands would be for transporting timber and equipment.
 
-### Analysis Workflow
-
-![Flowchart for White Pine Harvesting Suitability](images/analysis-workflow.png)
-
 ### Final Suitability Map
 
-![Suitable White Pine Harvesting Stands](images/suitable-harvesting-stands.png)
+![Suitable White Pine Harvesting Stands](Layout.jpg)
 
 ## Results
 
