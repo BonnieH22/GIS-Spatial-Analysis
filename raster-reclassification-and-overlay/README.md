@@ -14,13 +14,13 @@ The dataset contained **205 columns and 80 rows** with a cell size of **350 mete
 
 I reclassified the recreation class raster to select **Class 2** recreation areas, then used an overlay with the recreation subclass raster to determine the recreation types in those areas. The resulting categories were **Lodging** and **Beach**.
 
-![Recreation Types Within Class 2](images/recreation-class-2.png)
+![Recreation Types Within Class 2](map-layout/Recreation.jpg)
 
 ### 2. Roads Over Recreation
 
 I combined the roads and recreation raster datasets so road cells were assigned the roads value, while other cells kept their recreation class values.
 
-![Roads Over Recreation](images/roads-over-recreation.png)
+![Roads Over Recreation](map-layout/RoadsOverRecreation.jpg)
 
 ### 3. Weighted Overlay
 
@@ -30,7 +30,7 @@ I used Raster Calculator to create a weighted sum of multiple layers:
 recclass * 0.3 + roads * 0.4 + watershed * 0.3
 ```
 
-![Weighted Overlay of Recreation, Watersheds, and Roads](images/weighted-overlay.png)
+![Weighted Overlay of Recreation, Watersheds, and Roads](map-layout/weighted-overlay.png)
 
 ## Interpretation and Limitations
 
